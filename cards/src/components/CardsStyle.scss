@@ -1,0 +1,47 @@
+$primary-color:#62DE8A;
+$secondary-color: #D7E6D7;
+$third-color:#6289DE;
+
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-color;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#title{
+    color: $primary-color;
+    font-size: 1.5em;
+    margin-left: 2px;
+margin-right: 134px;
+margin-top: 10px;
+margin-bottom: 0;
+    
+}
+img{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+}
+#info{
+    color:black;
+    font-size: 0.7em;
+    margin-left: 43px;
+    margin-right: 134px;
+    margin-top: 0;
+margin-bottom: 0;
+    
+}
+#music-title{
+    color: $third-color;
+    font-size: 1em;
+    margin-left: -72px;
+margin-right: 134px;
+margin-top: 0;
+margin-bottom: 0;
+    
+}
